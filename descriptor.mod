@@ -4,5 +4,5 @@ tags={
 	"Balance"
 }
 name="BCK - Warrior Lodge and Hillsize Grazing"
-supported_version="1.16.*"
+supported_version="1.17.*"
 remote_file_id="3179779010"

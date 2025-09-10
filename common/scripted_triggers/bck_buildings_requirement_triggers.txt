@@ -1,8 +1,11 @@
 ﻿building_warrior_lodges_requirement_terrain = {
 	OR = {
-		terrain = mountains
-		terrain = desert_mountains
-		terrain = hills
+		OR = {
+			terrain = mountains
+			terrain = desert_mountains
+			terrain = hills
+		}
+		culture = { has_cultural_parameter = warrior_lodges_lift_restrictions }
 	}
 }
 
